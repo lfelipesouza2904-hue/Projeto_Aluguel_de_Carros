@@ -1,0 +1,47 @@
+<svg width="1000" height="600" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#050505"></stop>
+      <stop offset="50%" stop-color="#0f0f0f"></stop>
+      <stop offset="100%" stop-color="#050505"></stop>
+    </linearGradient>
+
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffcc33"></stop>
+      <stop offset="50%" stop-color="#ff3b1f"></stop>
+      <stop offset="100%" stop-color="#b30000"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)"></rect>
+
+  <!-- Carro clássico no fundo -->
+  <path d="M150 340
+           Q250 250 420 250
+           Q520 200 650 240
+           Q760 270 850 340
+           L850 380
+           Q760 360 650 360
+           Q520 420 420 400
+           Q250 400 150 380 Z" fill="#ff3b1f" opacity="0.15"></path>
+
+  <circle cx="320" cy="380" r="35" fill="#000" opacity="0.25"></circle>
+  <circle cx="680" cy="380" r="35" fill="#000" opacity="0.25"></circle>
+
+  <!-- Logo principal -->
+  <path d="M500 100 L320 430 L400 430 L430 350 L570 350 L600 430 L680 430 Z" fill="none" stroke="url(#gold)" stroke-width="14" stroke-linejoin="round"></path>
+
+  <path d="M430 350 L570 350" stroke="#ffffff" stroke-width="5" opacity="0.9"></path>
+
+  <!-- Nome -->
+  <text x="500" y="520" font-size="60" fill="#ffffff" text-anchor="middle" font-family="Arial" letter-spacing="14">
+    AURYX MOTORS
+  </text>
+
+  <!-- Slogan -->
+  <text x="500" y="565" font-size="18" fill="#ffcc33" text-anchor="middle" font-family="Arial" letter-spacing="6">
+    CLASSIC STYLE • MODERN POWER • PREMIUM EXPERIENCE
+  </text>
+
+</svg>
